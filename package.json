@@ -17,7 +17,7 @@
   "homepage": "https://github.com/RackHD/on-statsd",
   "dependencies": {
     "statsD": "git+https://github.com/etsy/statsd.git",
-    "di": "git+https://github.com/RackHD/di.js.git",
+    "di": "file:../on-core/node_modules/di",
     "statsd-elasticsearch-backend": "git+https://github.com/markkimsal/statsd-elasticsearch-backend.git"
   },
   "devDependencies": {
